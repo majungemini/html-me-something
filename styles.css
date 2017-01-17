@@ -1,0 +1,61 @@
+html{
+    margin: auto;
+    padding: 0;
+}
+body{
+    font: 100% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753;
+	 margin-top: 50px;
+     margin-bottom: 50px;
+     margin-right: 150px;
+     margin-left: 80px;
+     padding: 50px 30px 50px 80px;
+}
+header{font-style: italic;
+        font-family: fantasy;
+    font-size: 33px;}
+h1{
+     margin-top: 10px;
+	 display: block;
+	 width: 219px;
+	 height: 87px;
+	 float: left;
+
+}
+footer {
+    font-size: 12px;
+    font-weight: bold;
+	text-align: center;
+	}
+article{
+    font-style: oblique;
+}
+p{
+    font-family: cursive;
+
+}
+.odd{
+    border: 2px dashed blue;
+
+}
+.even{
+    border: 4px solid #00C957;
+
+}
+#info{
+    border: 6px dashed black;
+
+}
+a:link {
+	text-decoration: none;
+	color: black;
+	}
+a:visited {
+	text-decoration: underline;;
+	color: blue;
+	}
+a:hover, a:focus, a:active {
+	text-decoration: underline;
+	color: red;
+	}
